@@ -1,0 +1,98 @@
+/* font link */
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@300&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+/*  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(bg.png);
+  background-size: cover;
+  font-family: "Red Rose", cursive;
+}
+/* navbar */
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #ffc233;
+}
+button{
+    color: #fff;
+    background-color: #ff505f;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-family:"Dela Gothic One", cursive ;
+    cursor: pointer;
+}
+button:hover{
+    color: #ff505f;
+    background-color: #fff;
+    transition: 0.5s;
+}
+header {
+  width: 100%;
+  max-width: 1154px;
+  margin: 0 auto;
+}
+nav {
+  margin-top: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+  font-size: 18px;
+  font-family: "Red Rose";
+  font-weight: 400;
+  line-height: 23px;
+}
+.button1 {
+  font-size: 18px;
+  padding: 12px 40px;
+  border-radius: 2px;
+}
+/* navbarend */
+/* main start */
+.main-section{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.text-div{
+    margin-top: 52px;
+    /* height: 218px; */
+}
+.text-div span{
+    color: #ffc131;
+    font-weight: 400;
+    font-family: "Dela Gothic One", cursive;
+    font-style: none;
+    font-size: 73px;
+    line-height: 80px;
+}
+.button2{
+    margin-top: 25px;
+    font-size: 22px;
+    padding: 14px 35px;
+    border-radius: 2px;
+}
+/* main end */
+/* footer start */
+footer img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+/* footer end */
