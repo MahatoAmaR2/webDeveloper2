@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #111827;
+}
+.hamberger{
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+li {
+  list-style: none;
+  line-height: 60px;
+  font-size: 20px;
+}
+nav {
+  height: 60px;
+}
+ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 14px;
+  padding-right: 10px;
+}
+.nav-home{
+    background: rgb(100, 100, 224);
+    border-radius: 15px;
+    padding: 8px 12px;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    color: #fff;
+}
+.left span{
+    font-size: 28px;
+}
+.left h1{
+    font-size: 48px;
+}
+.left p{
+    font-size: 18px;
+    color: #c5c559;
+}
+/* project section css */
+.second-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 36px;
+}
+ .head{
+    color: #fff;
+    position: relative;
+}
+.head::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    bottom: -5px;
+    left: 0px;
+    background: blue;
+    border-radius: 10px;
+}
+.img-box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.img-box-first,.img-box-second,.img-box-third,.img-box-fourth{
+  margin-top: 16px;
+}
+.img-box-first,.img-box-second,.img-box-third,.img-box-fourth p{
+ color: #fff;
+ text-align: center;
+ font-size: 14px;
+}
+/* footer css */
+.footer-section{
+  margin-top: 32px;
+  text-align: center;
+}
+.footer-head{
+  color: #fff;
+  margin-top: 25px;
+  position: relative;
+  font-size: 22px;
+}
+.footer-head::after{
+  content: '';
+  position: absolute;
+  height: 6px;
+  width: 98%;
+  left: 2px;
+  bottom:-6px;
+  border-radius: 10px;
+  background-color: blue;
+}
+.icon{
+  margin-top: 25px;
+}
+.icon img{
+ margin: 0 8px;
+ cursor: pointer;
+}
+/* media start */
+@media screen and (max-width: 425px){
+  .hamberger{
+    display: block;
+    margin: 20px;
+  }
+  ul{
+    display: none;
+  }
+  .hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .left{
+    text-align: center;
+  }
+  .left span{
+    display: block;
+  }
+  .left img{
+    height: 30px;
+    width: 30px;
+  }
+  .left h1{
+    font-size: 28px;
+  }
+  .left p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .right img{
+    height: 320px;
+  }
+  .img-box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
