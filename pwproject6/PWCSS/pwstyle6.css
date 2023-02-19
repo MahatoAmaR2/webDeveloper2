@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+body {
+  background: #0f0f10;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+li {
+  list-style: none;
+  color: #fff;
+}
+.header {
+
+  width: 910px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.button1 {
+  background: #1e1e21;
+  margin-left: 32px;
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px 40px;
+}
+/* main-section css */
+.main-section {
+  max-width: 910px;
+  margin: 0 auto;
+  display: flex;
+}
+.main-left-section,
+.main-right-section {
+  width: 50%;
+}
+.main-left-section {
+  display: flex;
+  justify-content: center;
+}
+.main-left-section img {
+  position: relative;
+  top: -180px;
+}
+.main-right-section .onear {
+  margin: 50px 0px 5px 70px;
+}
+.main-right-section h1 {
+  margin: 0px 0px 25px 35px;
+  font-size: 46px;
+  font-weight: 600;
+}
+.main-right-section h5 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px 0px 25px 35px;
+}
+.main-right-section .beats-para {
+  margin: 0px 0px 0px 35px;
+  font-size: 12px;
+  color: #bdc0c2;
+  width: 59%;
+  line-height: 25px;
+  font-weight: 300;
+}
+.bag-sction {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #1e1e21;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 10px 25px;
+  margin: 25px 0 50px 35px;
+}
+.bag-sction p {
+  color: #fff;
+  font-weight: 300;
+  background-color: transparent;
+}
+/* brand-logo-section */
+.brand-logo-section {
+  max-width: 660px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* connection-section */
+.connection-section {
+  max-width: 910px;
+  margin: 0 auto;
+}
+.connection-section .specs {
+  text-align: center;
+  margin: 80px 0 40px 0;
+}
+.connection-left-right {
+  display: flex;
+}
+.connection-left p {
+  font-size: 12px;
+  font-weight: 300;
+  color: #bdc0c2;
+  line-height: 18px;
+}
+.bluetooth,
+.microphone {
+  margin: 0 0 28px 200px;
+  line-height: 24px;
+}
+.battery,
+.load {
+  margin: 0 0 22px 150px;
+  line-height: 24px;
+}
+.connection-left h3 {
+  font-weight: 400;
+}
+.connection-right {
+  margin-left: 120px;
+  margin-top: 38px;
+}
+/* case-section */
+.case-section {
+  max-width: 660px;
+  margin: 0 auto;
+}
+.case {
+  text-align: center;
+  margin: 80px 0px 40px 0;
+}
+.case-section-content {
+  display: flex;
+  gap: 50px;
+}
+.mouse-logo {
+  margin: 20px 0 0 40px;
+}
+.mouse-content {
+  margin: 100px 0px 0px 50px;
+  width: 21%;
+}
+.mouse-contentp {
+  color: #bdc0c2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.group {
+  width: fit-content;
+  background: #1e1e21;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  padding: 10px 20px;
+}
+/* buy-section
+ */
+.buy-section {
+  max-width: 910px;
+  margin: 100px auto 0 auto;
+  background-color: #1e1e21;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.buy-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 660px;
+  margin: auto;
+}
+.left-buy {
+  width: 40%;
+}
+.left-buy h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.left-buy p {
+  margin-bottom: 20px;
+  color: #bdc0c2;
+  font-weight: 400;
+  font-size: 12;
+}
+.buybag {
+  width: fit-content;
+  background-color: #0f0f10;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+}
+.right-buy {
+  margin-left: 20px;
+}
+/* card-section  */
+.card-section {
+  max-width: 660px;
+  margin: auto;
+}
+.card-logo {
+  text-align: center;
+  margin: 70px 0px 80px 0px;
+}
+.cards {
+  display: flex;
+}
+.cards-row-first {
+  width: 25%;
+  margin-left:95px;
+}
+.cards-row-second {
+  width: 25%;
+  margin-left: 30px;
+}
+.card-items {
+  width: 132px;
+  height: 132px;
+  background-color: #1e1e21;
+  margin-bottom: 58px;
+  border-radius: 8px;
+}
+.card-image1 {
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+.product-info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.product-info-content{
+  position: relative;
+  top: -30px;
+}
+.product-info-content h3{
+  font-size: 13px;
+  font-weight: 500;
+}
+.product-info-content p{
+  font-size: 13px;
+  font-weight: 400;
+  color:  #bdc0c2;
+}
+.product-info-img{
+  position: relative;
+  top: -30px;
+  background: #0f0f10;
+  padding: 3px 4px;
+  border-radius: 6px;
+}
+/* footer-section-CSS */
+footer{
+  max-width: 910px;
+  margin: 0 auto;
+}
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer-section-first h3 {
+  margin-bottom: 16px;
+}
+.footer-section-first h3 a{
+  font-size: 18px;
+}
+.footer-section-first p{
+  padding: 5px 0px;
+}
+.footer-section-first p a{
+  font-size: 13px;
+  font-weight: 300;
+  color: #bdc0c2;
+}
+.footer-section-second h3 a{
+  font-size: 18px;
+}
+.footer-section-second h3 {
+  margin-bottom: 16px;
+}
+.footer-section-second p{
+  padding: 5px 0px;
+}
+.footer-section-second p a{
+  font-size: 13px;
+  font-weight: 300;
+  color: #bdc0c2;
+}
+.first-line{
+  display: flex;
+  background: #1e1e21;
+  border-radius: 8px;
+padding: 5px 10px;
+}
+.first-line input{
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.subscribe{
+  display: flex;
+  background: #0f0f10;
+  width: fit-content;
+  padding: 10px 20px;
+  gap: 20px;
+  border-radius: 8px;
+}
+.second-line{
+  margin-top: 35px;
+}
+.second-line img{
+  margin: 6px;
+}
+.uparrow{
+  position: relative;
+ left: 95%;
+  bottom: 145px;
+  cursor: pointer;
+}
