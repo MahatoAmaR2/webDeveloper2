@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  body {
+    background-color: #f0f4f5;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  li {
+    font-weight: 600;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  /* header css */
+  nav {
+    height: 12vh;
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6%;
+  }
+  .logo img {
+    width: 150px;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  /* form-section */
+  .form-section{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  form{
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  form h1{
+    text-align: center;
+  }
+  form label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  form input{
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 12px;
+  }
+  form textarea{
+    border: transparent;
+    border-radius: 8px;
+    padding: 5px 10px;
+    resize: none;
+    height: 100px;
+  }
+  .submit-button{
+    border: transparent;
+    border-radius: 10px;
+    background: #20BC7E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 12px;
+  }
